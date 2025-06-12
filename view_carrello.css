@@ -1,0 +1,91 @@
+.hidden{
+  display: none;
+}
+
+.no_scroll{
+  overflow: hidden;
+}
+
+#view_carrello {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-end;
+}
+
+#view_carrello.hidden{
+  display: none;
+}
+
+#carrello{
+  width: 35%;
+  height: 100%;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+#carrello h1, #carrello p{
+  color: white;
+}
+
+#view_products_shop{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+.prodotto_carrello{
+  width: 100%;
+  height: 20%;    
+  display: flex;
+  border: 3px solid darkgrey;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  flex-shrink: 1;
+}
+  
+.prodotto_carrello img{
+  width: 33%;
+  height: 90%;
+}
+    
+a, .news_container .button {
+  cursor: pointer;
+}
+  
+a:hover{
+  color: #FF0D4A;
+}
+
+#go_to_shop{
+  width: 90%;
+  height: 50px;
+  margin-top: 5px;
+}
+
+#go_to_shop div{
+  width: 100%;
+  height: 100%;
+  background-color: #FF0D4A;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 100px;
+}
+
+#go_to_shop a{
+  color: white;
+  text-transform: uppercase;
+}
